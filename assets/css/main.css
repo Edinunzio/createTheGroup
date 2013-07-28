@@ -34,6 +34,19 @@ a {
 	text-transform: uppercase;
 }
 
+.content-col {
+	padding:10px;
+}
+
+.content-col h3 {
+	margin-left:5%;
+}
+
+.content-col p{
+	width:90%;
+	margin:auto;
+	font-size:75%;
+}
 
 .content-col, ul.nav, .logo{
 	background-color: rgba(0,0,0,0.5);
