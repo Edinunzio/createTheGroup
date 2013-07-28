@@ -6,6 +6,15 @@
 <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
 <link href="assets/css/main.css" rel="stylesheet">
 <title>Untitled Document</title>
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/carousel.js"></script>
+<script>
+$('.carousel').carousel({
+	interval:2000
+	});
+</script>
+
+
 </head>
 
 <body>
@@ -14,7 +23,7 @@
       <div class="row-fluid">
         <div class="span3 offset1">
 		<div class="logo">
-			<p>Widget Co</p>
+			<h2>Widget Co</h2>
 		</div>
           <div class="sidebar-nav">
 			 <ul class="nav">
@@ -26,10 +35,33 @@
             </ul>
           </div><!--/.well -->
         </div><!--/span-->
-		<div class="span6">
+		<div class="span5 offset1">
 		<div class=" content-col">
-			<p>Here's where I say a lot of shit.</p>
-			</div>
+			<h3>Our Company</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique, enim sed ullamcorper hendrerit, felis nulla sagittis sem, vel ultricies purus lorem sit amet odio. Suspendisse massa odio, tempus nec faucibus eget, fringilla vitae massa. Vestibulum sodales venenatis leo, sed tristique sapien tempor in. Vestibulum adipiscing sit amet neque non vestibulum. Integer tellus erat, fermentum at condimentum vehicula, commodo nec nibh. Etiam urna lorem, iaculis non ligula at, posuere consectetur neque. Praesent tincidunt tincidunt libero, eleifend lacinia ligula pulvinar et. Vestibulum dictum sapien id placerat euismod. Proin id ultrices nunc. Fusce condimentum neque turpis, non ullamcorper leo varius ut. Pellentesque ut ante nulla. Sed rutrum mauris eu dolor luctus interdum. In accumsan, ante vitae consectetur eleifend, odio nisi convallis nulla, quis mollis purus felis ac erat. Sed bibendum ultricies dolor.</p>
+			
+			<div id="myCarousel" class="carousel slide">
+                <ol class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+                  <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="item active">
+                    <img src="images/slides/1/car pics.jpg" alt="">
+                  </div>
+                  <div class="item">
+                    <img src="images/slides/1/car photos.jpg" alt="">
+                  </div>
+                  <div class="item">
+                    <img src="images/slides/1/BMW-M3-2002-03.jpg" alt="">
+                  </div>
+                </div>
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+              </div>
+			
+		</div>
 		</div>
 	</div>
 </div>
