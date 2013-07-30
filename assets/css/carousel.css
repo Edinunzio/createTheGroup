@@ -1,7 +1,4 @@
 .carousel-indicators {
-  /*position: absolute;
-  top: 15px;
-  right: 15px;*/
   z-index: 5;
   margin-top:10%;
   margin-left:40%;
@@ -16,10 +13,8 @@
   margin-left: 5px;
   text-indent: -999px;
   background-color: #ccc;
- /* background-color: rgba(255, 255, 255, 1);*/
   border-radius: 5px;
 }
-
 
 .carousel-inner {
 	width: 90% !important;

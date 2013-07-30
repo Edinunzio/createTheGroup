@@ -32,7 +32,6 @@ a:hover {
 }
       
 .sidebar-nav {
-	/*padding: 9px 0;*/
 	position:fixed;
 	top:120px;
 	text-transform: uppercase;
@@ -42,6 +41,13 @@ a:hover {
 	margin:-4px;
 	margin-left:10px;
 	font-size:75%;
+}
+
+.logo{
+	overflow:auto;
+	position:fixed;
+	top:40px;
+	min-width: 233px;
 }
 
 .content-col {
@@ -72,12 +78,7 @@ a:hover {
 background-color:transparent;
 }
 
-.logo{
-	overflow:auto;
-	position:fixed;
-	top:40px;
-	min-width: 233px;
-}
+
 
 
 
