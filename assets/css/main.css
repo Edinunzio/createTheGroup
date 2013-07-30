@@ -1,5 +1,4 @@
 body {
-	padding-bottom: 40px;
 	background-color: #000;
 	color: #fff;
 	background-repeat:  no-repeat;
@@ -83,17 +82,3 @@ background-color:transparent;
 
 
 
-@media (max-width: 768px) {
-        /* Enable use of floated navbar text */
-        .navbar-text.pull-right {
-          float: none;
-          padding-left: 5px;
-          padding-right: 5px;
-        }
-        .sidebar-nav, .logo{
-        position:static;
-        }
-        .sidebar-nav {
-        	width:40%
-        }
-      }
